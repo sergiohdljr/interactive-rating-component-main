@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/* Cores */ 
+
+:root{
+    --Laranja : hsl(25, 97%, 53%);
+    --Branco: hsl(0, 0%, 100%);
+    --Cinza-Claro: hsl(217, 12%, 63%);
+    --Cinza-Medio:hsl(216, 12%, 54%);
+    --Azul-Escuro: hsl(216, 12%, 8%);
+    --Azul-Escuro-2: hsl(213, 19%, 18%);
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Overpass",sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Azul-Escuro);
+}
+
+main{
+    width: 30%;
+    height: 60vh;
+    border-radius: 2rem;
+    background-color:#1a212b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main .star{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #262f38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .star img{
+    width: 16px;
+}
+
+.textos{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.textos h1{
+    font-weight: 700;
+    color: var(--Branco);
+}
+
+.textos p{
+    text-align: start;
+    font-size: 1rem;
+    color: var(--Cinza-Medio);
+}
+
+.numbers{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.numbers .circle{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #262f38;
+    color: var(--Cinza-Medio);
+}
+
+.circle:hover{
+    background-color: var(--Cinza-Claro);
+    color: var(--Branco);
+    transition: all 0.5s ease;
+}
+
+.circle2{
+    background-color: var(--Laranja);
+    color: var(--Branco);
+}
+
+.btn{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+    width: 90%;
+    height: 100%;
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--Laranja);
+    color: var(--Branco);
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    background-color: var(--Branco);
+    color: var(--Laranja);
+}
+
