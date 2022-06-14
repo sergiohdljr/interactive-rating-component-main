@@ -1,0 +1,6 @@
+Desafio Frontend Mentor - Interactive rating component.
+
+Os usuários os devem ser capazes de:
+- Veja os estados de foco(hover) para todos os elementos interativos na página.
+- Selecione e envie uma classificação numérica.
+- Ver o estado do cartão "Obrigado" após enviar uma avaliação
